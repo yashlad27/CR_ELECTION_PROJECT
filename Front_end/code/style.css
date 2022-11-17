@@ -23,7 +23,15 @@ body{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
+.container .forms{
+    display: flex;
+    width: 200%;
+    align-items: center;
+    height: 430px;
+}
+
 .container .form{
+    width: 50%;
     padding: 30px;
 }
 
