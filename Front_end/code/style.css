@@ -73,7 +73,7 @@ body{
 }
 
 .input-field input:is(:focus, :valid){
-    border-bottom-color: $4070f4;
+    border-bottom-color: #4070f4;
 }
 
 .input-field i{
@@ -112,7 +112,7 @@ body{
 }
 
 .checkbox-content input{
-    margin: 0 8px -2px, 4px;
+    margin: 0 8px -2px 4px;
     accent-color: #4070f4;
 }
 
@@ -140,7 +140,7 @@ body{
     font-size: 17px;
     font-weight: 500;
     letter-spacing: 1px;
-    border-radiun: 6px;
+    border-radius: 6px;
     background-color: #4070f4;
     cursor: pointer;
     transition: all 0.3s ease;
