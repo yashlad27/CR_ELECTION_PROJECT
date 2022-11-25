@@ -6,6 +6,7 @@ const stud_info = [
         alt: "Student Image",
         year: "Third Year",
         panel: "Panel-C",
+        gender: 'M'
     },
     {
         id: 2,
@@ -14,6 +15,7 @@ const stud_info = [
         alt: "Student Image",
         year: "Third Year",
         panel: "Panel-C",
+        gender: 'M'
     },
     {
         id: 3,
@@ -22,6 +24,7 @@ const stud_info = [
         alt: "Student Image",
         year: "Third Year",
         panel: "Panel-C",
+        gender: "F"
     },
     {
         id: 4,
@@ -30,6 +33,7 @@ const stud_info = [
         alt: "Student Image",
         year: "Third Year",
         panel: "Panel-C",
+        gender: "F"
     }
 ];
 

@@ -23,4 +23,3 @@ function card({title, imageURL, body}) {
         </div>
     )
 }
-export default card;

@@ -1,6 +1,6 @@
 import React from "react";
-import stud_info from "../code/student_info";
-import card from "../components/my-app/src/card";
+
+import card from "/Users/yash/Documents/GitHub/CR_ELECTION_PROJECT/Front_end/components/dbms-app/src/card.jsx";
 
 function App() {
     return(
