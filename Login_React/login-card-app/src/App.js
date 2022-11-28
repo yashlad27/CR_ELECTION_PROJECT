@@ -1,13 +1,23 @@
-import Register from './Register';
 import Login from './Login';
-import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import MainContent from './components/MainContent';
+import "./App.scss";
 
 function App() {
   return (
+    <>
     <main className = "App">
-      <Register />
       <Login />
     </main>
+
+    <div className='container'>
+      <Header/>
+      <MainContent />
+      <Footer />
+    </div>   
+    </>
+
   );
 }
 
