@@ -6,9 +6,9 @@
   $roboto:'Roboto';
   $cursive_font:'Satisfy';
   $round:'Varela Round';
-  $cta:#fe8033;
-  $bg:#272b34;
-  $light_bg:#2b3039;
+  $cta:#73c2fb;
+  $bg:#0067a5;
+  $light_bg:#21abcd;
   $text:#2d343e;
   $white:#fff;
   
@@ -40,7 +40,7 @@
      width:100%;
      color:$white;
      .logo{
-       font-size:30px;
+       font-size:35px;
        text-transform: uppercase;
        color:rgba($white, .7);
      }
@@ -144,12 +144,12 @@
     height:35px;
     font-size:14px;
     border-radius: 35px;
-    background-color:$text;
-    color:rgba($white, .5);
+    background-color:#000080;
+    color:rgba($white, 1);
     @extend .dFlex;
     cursor:pointer;
     position:relative;
-    transition:background-color .3s ease;
+    transition:background-color .5s ease;
     overflow:hidden;
   }
 
@@ -158,7 +158,7 @@
     width:100%;
     justify-content: space-between;
     margin-top:auto;
-    color:rgba($white, .3);
+    color:rgba($white, 1);
     font-size:12px;
     .social{
       @extend .dFlex;
